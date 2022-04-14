@@ -2,7 +2,7 @@ import React from 'react'
 import emailjs from '@emailjs/browser';
 
 class ContactCard extends React.Component {
-  
+  //comment
     sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm('service_xqm5e8f', 'template_0ns5dui', e.target, 'AxNy4nzCU6XXWzZXc');
