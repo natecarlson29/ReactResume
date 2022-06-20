@@ -35,10 +35,11 @@ header {
 .headerText h1{
   border: 2px solid var(--star2);
   background-color: rgb(0, 0, 0, .4);
+  border-radius: 100px;
 }
 
 .headerText {
-  font-size: 300%;
+  font-size: 180%;
   z-index: 10;
   animation-name: floating;
   animation-duration: 10s;
@@ -141,11 +142,12 @@ footer {
 
 .profileCard {
   margin: 50px 20% 40px 20%;
-	background-color: aliceblue;
-	box-shadow: .5em -.1em 1em var(--about), -.5em -.1em 1em var(--about);
+	background-color: rgb(240, 248, 255, .85);
+	box-shadow: 0em 0em .5em .5em var(--about);
   border: 2px solid black;
-  padding: 25px;
+  outline: 2px solid white;
   transition: all .3s .3s cubic-bezier(.5, 0, .5, 1);
+  border-radius: 25px;
 }
 
 .btn-container {
@@ -188,7 +190,11 @@ footer {
 
 .resumeCard {
   margin: 50px 20% 40px 20%;
-	box-shadow: .5em -.1em 1em var(--resume), -.5em -.1em 1em var(--resume);
+}
+
+.resumeCard iframe {
+  box-shadow: 0em 0em .5em .5em var(--resume);
+  border-radius: 15px;
   border: 2px solid black;
 }
 
@@ -197,7 +203,8 @@ footer {
 .contactCard {
   margin: 50px 20% 40px 20%;
 	background-color: aliceblue;
-	box-shadow: .5em -.1em 1em var(--contact), -.5em -.1em 1em var(--contact);
+  box-shadow: 0em 0em .5em .5em var(--contact);
+  border-radius: 25px;
   border: 2px solid black;
   padding: 25px;
   text-align: center;
@@ -235,6 +242,13 @@ button:hover {
 .about-top-half {
   display: flex;
   flex-direction: row;
+  background-color: white;
+  border-top: 2px solid black;
+  padding:  10px 25px;
+}
+
+.bottom-content {
+  padding: 10px 25px;
 }
 
 .about-grey {
@@ -243,6 +257,30 @@ button:hover {
 
 .freq-header {
   margin-left: 50px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.freq-header2 {
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+
+.flexbox {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 5px;
+}
+
+.flexbox .flex-col {
+  background-color: rgb(221, 229, 236);
+  padding: 15px;
+  border-radius: 15px;
 }
 
 #about-table {
@@ -314,8 +352,9 @@ h1{
 }
 
 .project0{
-	background-color: aliceblue;
-	box-shadow: .5em -.1em 1em var(--projects), -.5em -.1em 1em var(--projects);
+	background-color: rgb(240, 248, 255, .85);
+	box-shadow: 0em 0em .5em .5em var(--projects);
+  border-radius: 25px;
   border: 2px solid black;
   padding: 10px;
   margin-top: 10px;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import profPic from './SiteCards/img/calfbearerlol.png';
-import { faMapPin, faGraduationCap, faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faMapPin, faGraduationCap, faBriefcase, faCheckCircle, faCheckSquare, faCheck, faClipboardCheck } from '@fortawesome/free-solid-svg-icons';
 
 class ProfileCard extends React.Component {
   
@@ -9,22 +9,35 @@ class ProfileCard extends React.Component {
       return (
             <div>
                 <div className="profileCard">
-                <h2 className='freq-header'>About</h2><hr />
+                <h2 className='freq-header'>About</h2>
                 <div className='about-top-half'>
                     <div>
                         <img id='prof-pic' src={profPic} ></img>
                     </div>
                     <div>
-                        <p className="text-indent">Hi I'm Nate, I am a full stack software engineer creating web apps, often building sites pertaining to my interests of gaming, fitness, nutrition, and music. I am employed as a software developer where I write and maintain software that is used to track, map, and display data for several different software products. Outside of my code I write for my job, many of the personal projects I have worked on can be found on this site. </p>
-                        <p className='about-grey'><FontAwesomeIcon className ='detail-icon' icon={faMapPin} /> Lincoln, NE, USA</p>
-                        <p className='about-grey'><FontAwesomeIcon className ='detail-icon' icon={faBriefcase} /> Software Developer </p>
+                        <p className="text-indent">Hi I'm Nate, I am a full stack software engineer creating web apps. I am employed as a software developer where I write and maintain software that is used to track, map, and display data for several different software products. </p>
+                        <div className="flexbox">
+                            <div className="flex-col">
+                                <FontAwesomeIcon icon={faCheckCircle} />
+                                <div>UI / UX</div> 
+                            </div>
+                            <div className="flex-col">
+                                <FontAwesomeIcon icon={faCheckCircle} />
+                                <div>Backend Dev</div>
+                            </div>
+                            <div className="flex-col">
+                                <FontAwesomeIcon icon={faCheckCircle} />
+                                <div>API Integrations</div>
+                            </div>
+                        </div>
+                        <p className='about-grey'><FontAwesomeIcon className ='detail-icon' icon={faMapPin} /> Lincoln NE, USA</p>
+                        <p className='about-grey'><FontAwesomeIcon className ='detail-icon' icon={faBriefcase} /> Full Stack Web Developer </p>
                         <p className='about-grey'><FontAwesomeIcon className ='detail-icon' icon={faGraduationCap} /> AAS in CIT from Southeast Community College,<br />&nbsp;&nbsp;Software Engineering at University of Nebraska - Lincoln</p>
                     </div>
                 </div>
 
-                <hr></hr>
-                <div>
-                    <h4 className='freq-header'>Frequenty used tools in my development</h4><hr />
+                <div className='bottom-content'>
+                    <h4 className='freq-header2'>Frequenty used tools in my development</h4>
                     <table id='about-table'>
                         <tr>
                             <td>JavaScript</td>
@@ -47,7 +60,7 @@ class ProfileCard extends React.Component {
                             <td>PHP</td>
                         </tr>
                     </table>
-                </div><br />
+                </div>
                 <p className='freq-header'>I am always looking to learn new frameworks and tools that improve my projects, products, and my development process.</p>
             </div>
             </div>

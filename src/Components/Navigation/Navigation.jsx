@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMailBulk, faBook, faPaperclip, faSubscript, faPooStorm, faUser, faUserAstronaut, faUserShield } from '@fortawesome/free-solid-svg-icons';
+import { faStarAndCrescent, faPenFancy, faScroll, faUser, faUserAstronaut, faUserShield, faPen } from '@fortawesome/free-solid-svg-icons';
 
 class Navigation extends React.Component {
 
@@ -42,7 +42,7 @@ class Navigation extends React.Component {
                       window.location.href === "/projects" ? "active" : ""
                     }`}
                   >
-                      <FontAwesomeIcon icon={faUserShield} />Projects
+                      <FontAwesomeIcon icon={faStarAndCrescent} /> Projects
                   </li>
                 </Link>
                 <Link class="nav-link" to="/resume" onClick={this.changeStarResume}>
@@ -51,7 +51,7 @@ class Navigation extends React.Component {
                       window.location.href === "/resume" ? "active" : ""
                     }`}
                   >
-                      <FontAwesomeIcon icon={faPooStorm} /> Resume{/*faBook, faUser, faUserAstronaut, faUserShield*/}
+                      <FontAwesomeIcon icon={faScroll} /> Resume{/*faBook, faUser, faUserAstronaut, faUserShield*/}
                   </li>
                 </Link>
                 <Link class="nav-link" to="/contact" onClick={this.changeStarContact}>
@@ -60,7 +60,7 @@ class Navigation extends React.Component {
                       window.location.href === "/contact" ? "active" : ""
                     }`}
                   >
-                      <FontAwesomeIcon icon={faUser} />Contact
+                      <FontAwesomeIcon icon={faPenFancy} /> Contact
                   </li>
                 </Link>
               </ul>
