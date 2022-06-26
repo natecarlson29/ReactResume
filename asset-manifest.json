@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ReactResume/static/css/main.dcfac407.chunk.css",
-    "main.js": "/ReactResume/static/js/main.d5c23c43.chunk.js",
-    "main.js.map": "/ReactResume/static/js/main.d5c23c43.chunk.js.map",
+    "main.css": "/ReactResume/static/css/main.af4f7437.chunk.css",
+    "main.js": "/ReactResume/static/js/main.b2051823.chunk.js",
+    "main.js.map": "/ReactResume/static/js/main.b2051823.chunk.js.map",
     "runtime-main.js": "/ReactResume/static/js/runtime-main.fcfbd3bf.js",
     "runtime-main.js.map": "/ReactResume/static/js/runtime-main.fcfbd3bf.js.map",
     "static/js/2.b36b1140.chunk.js": "/ReactResume/static/js/2.b36b1140.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.94260b07.chunk.js": "/ReactResume/static/js/3.94260b07.chunk.js",
     "static/js/3.94260b07.chunk.js.map": "/ReactResume/static/js/3.94260b07.chunk.js.map",
     "index.html": "/ReactResume/index.html",
-    "static/css/main.dcfac407.chunk.css.map": "/ReactResume/static/css/main.dcfac407.chunk.css.map",
+    "static/css/main.af4f7437.chunk.css.map": "/ReactResume/static/css/main.af4f7437.chunk.css.map",
     "static/js/2.b36b1140.chunk.js.LICENSE.txt": "/ReactResume/static/js/2.b36b1140.chunk.js.LICENSE.txt",
     "static/media/bracket-site1.7282379b.png": "/ReactResume/static/media/bracket-site1.7282379b.png",
     "static/media/calfbearerlol.5a6b394a.png": "/ReactResume/static/media/calfbearerlol.5a6b394a.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.fcfbd3bf.js",
     "static/js/2.b36b1140.chunk.js",
-    "static/css/main.dcfac407.chunk.css",
-    "static/js/main.d5c23c43.chunk.js"
+    "static/css/main.af4f7437.chunk.css",
+    "static/js/main.b2051823.chunk.js"
   ]
 }
