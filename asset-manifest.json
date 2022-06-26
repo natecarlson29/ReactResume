@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/ReactResume/static/css/main.4da43fa4.chunk.css",
+    "main.js": "/ReactResume/static/js/main.d5c23c43.chunk.js",
+    "main.js.map": "/ReactResume/static/js/main.d5c23c43.chunk.js.map",
+    "runtime-main.js": "/ReactResume/static/js/runtime-main.fcfbd3bf.js",
+    "runtime-main.js.map": "/ReactResume/static/js/runtime-main.fcfbd3bf.js.map",
+    "static/js/2.b36b1140.chunk.js": "/ReactResume/static/js/2.b36b1140.chunk.js",
+    "static/js/2.b36b1140.chunk.js.map": "/ReactResume/static/js/2.b36b1140.chunk.js.map",
+    "static/js/3.94260b07.chunk.js": "/ReactResume/static/js/3.94260b07.chunk.js",
+    "static/js/3.94260b07.chunk.js.map": "/ReactResume/static/js/3.94260b07.chunk.js.map",
+    "index.html": "/ReactResume/index.html",
+    "static/css/main.4da43fa4.chunk.css.map": "/ReactResume/static/css/main.4da43fa4.chunk.css.map",
+    "static/js/2.b36b1140.chunk.js.LICENSE.txt": "/ReactResume/static/js/2.b36b1140.chunk.js.LICENSE.txt",
+    "static/media/bracket-site1.7282379b.png": "/ReactResume/static/media/bracket-site1.7282379b.png",
+    "static/media/calfbearerlol.5a6b394a.png": "/ReactResume/static/media/calfbearerlol.5a6b394a.png",
+    "static/media/food-tracker.2c862f3d.png": "/ReactResume/static/media/food-tracker.2c862f3d.png",
+    "static/media/ladyluckbanner.b40ed4bf.png": "/ReactResume/static/media/ladyluckbanner.b40ed4bf.png",
+    "static/media/lolprobuilds1.07937a9c.png": "/ReactResume/static/media/lolprobuilds1.07937a9c.png",
+    "static/media/lolprobuilds2.921364ff.png": "/ReactResume/static/media/lolprobuilds2.921364ff.png",
+    "static/media/nates-cocktails.0d1ef0f6.png": "/ReactResume/static/media/nates-cocktails.0d1ef0f6.png",
+    "static/media/osrs-site1.0f2f2df3.png": "/ReactResume/static/media/osrs-site1.0f2f2df3.png",
+    "static/media/osrs-site2.9c93968a.png": "/ReactResume/static/media/osrs-site2.9c93968a.png",
+    "static/media/resume1.c45ef7e3.pdf": "/ReactResume/static/media/resume1.c45ef7e3.pdf",
+    "static/media/App.css": "/ReactResume/static/media/runescape-chat-07-webfont.7ceb6b93.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fcfbd3bf.js",
+    "static/js/2.b36b1140.chunk.js",
+    "static/css/main.4da43fa4.chunk.css",
+    "static/js/main.d5c23c43.chunk.js"
+  ]
+}
